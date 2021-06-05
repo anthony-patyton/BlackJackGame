@@ -1,0 +1,20 @@
+require 'pry'
+require 'colorize'
+require 'card/card'
+require 'deck/deck'
+require 'hand/hand'
+
+blackjack.rb
+
+- Player hand
+- Dealer hand
+- Playing - whether ornot the game is being played
+- deck
+- current gamer --> access required
+- Deal hit
+- stand - can close hand
+- show hands, report hand of player and Dealer
+- set result
+
+# STEP ONE
+puts "Welcome to Blackjack!".colorize(:light_blue)
